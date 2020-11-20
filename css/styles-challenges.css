@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+h2 {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.section-title {
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-family: "Roboto Mono", "Helvetica Neue", sans-serif;
+}
+
+.section-title p {
+    color: #cecece;
+    font-size: 16px;
+}
+
+.section-title h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.button-float {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    color: #fff;
+    text-decoration: none;
+
+    background-color: #FFF;
+    border: 3px solid #333;
+    border-radius: 45px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 100;
+}
+
+.button-float-icon {
+    max-width: 27px;
+    margin: 0 auto;
+    align-items: center;
+    opacity: 0.8;
+}
+
+/* -------- Challenge Main Area -------- */
+
+.challenge-intro {
+    font-family: "Roboto Mono", "Helvetica Neue", sans-serif;
+}
+
+.chanllege-model {
+    margin: 40px auto;
+    padding: 1rem;
+    border: 2px solid #f3f3f3;
+    border-radius: 5px;
+}
+
+.chanllege-model p {
+    margin-top: 2rem;
+    color: #cecece;
+}
+
+.result-title {
+    text-align: start;
+    margin: 40px 0;
+    font-family: "Roboto Mono", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.result {
+    padding: 2rem !important;
+    border: 2px solid #f3f3f3;
+    border-radius: 5px;
+}
+
+/* -------- Challenge Module 03 Area -------- */
+
+.section-challenge {
+    min-height: 80vh;
+    padding: 10vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business-card {
+    
+    max-width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: "Roboto Mono", "Helvetica Neue", sans-serif;
+    
+    background-image: url("/img/Module 03 - CSS Basic/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    /*
+    border-radius: 2px;
+    border: 2px solid #F3F3F3;
+    box-sizing: border-box;
+    */
+}
+
+.business-card .card-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.business-card .card-content ul li {
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+.business-card .card-content ul li a:hover {
+    color: #1463CB;
+    text-shadow: 0px 0px 5px rgba(20, 99, 203, 0.25);
+    
+}
+
+.business-card .card-content .list-icon img {
+    max-width: 30px;
+    max-height: 30px;
+    vertical-align: middle;
+}
+
+.business-card .card-content .list-name {
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#challenge-module-03 .result {
+    padding: 1rem !important;
+}
+
+#challenge-module-03 .result p {
+    margin: 2rem auto 1rem;
+    text-align: center;
+    color: #cecece;
+    font-family: "Roboto Mono", "Helvetica Neue", sans-serif;
+}
